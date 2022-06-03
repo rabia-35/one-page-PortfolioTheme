@@ -1,0 +1,277 @@
+.cover{
+  height: 100vh;
+  background: url("./navbar-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size:cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-position-y:center;
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  color: #ff9628;
+  transition: color 0.5s ease;
+}
+.nav-body{
+  margin-top: 60px;
+  margin-left: 5%;
+  text-align: center;
+  color: white;
+}
+.nav-body h1{
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-size:xx-large;
+}
+.nav-body h2{
+  font-family: "Montserrat", sans-serif;
+  font-size: xxx-large;
+}
+.nav-body button{
+  border: none;
+  background-color: #ff9628;
+  margin-top:3%
+}
+.nav-body button:hover{
+  background-color: white;
+  color:#ff9628;
+  transition: color 0.5s ease;
+}
+
+.navbar-logo>img{
+  width: 15%;
+}
+/**all h1 of page */
+h1{
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.services h5{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 5% auto;
+}
+
+.text-muted{
+  text-align: center;
+  font-size: smaller;
+  font-style: italic;
+  padding-bottom: 9%;
+  font-family: 'PT Serif', serif;
+}
+.icon{
+  width: 110px;
+  height: 110px;
+  color: #ff9628;
+  border: #ff9628 solid 3px;
+  padding-top: 15px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+}
+.services-row p{
+  font-family: 'PT Serif', serif;
+  font-size: small;
+  text-align: center;
+  color:rgb(105, 104, 104);
+  font-size: small;
+}
+.portfolio{
+  background-color: aliceblue;
+  padding-top:2%;
+  padding-bottom: 5%;
+}
+.portfolio-card{
+  margin: 0 auto;
+  margin-bottom: 15%;
+  border: none;
+  border-radius: 0% !important;
+  width: 14rem;
+  height: 14rem;
+}
+.portfolio-card:hover{
+  width: 13.5rem;
+  height: 13.5rem;
+  color:#ff9628
+}
+.portfolio-card >img{
+  height: 240px;
+  border-radius: 0%;
+}
+.title{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  margin-top: -10px;
+}
+.card .text-muted{
+font-size: xx-small;
+margin-top: -10px;
+}
+.about{
+  margin: 0 auto;
+  margin-bottom: 6%;
+}
+
+.about  img {
+  border-radius: 50%;
+  text-align: center;
+  
+}
+.about-row .text-center{
+ width: min-content;
+}
+.about-row p{
+  font-family: 'PT Serif', serif;
+  color:rgb(105, 104, 104);
+  font-size: small;
+}
+.about h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+}
+.about h6{
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  margin-top: -10px;
+}
+
+.about-row{
+  margin-top: 5%;
+  position: relative;
+}
+.about-more{
+  background-color: #ff9628;
+  color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 50px;
+  margin-left: 35%;
+  text-transform: uppercase;
+  font-size:small;
+  font-weight: 500;
+}
+
+.ms-5{
+  position: relative;
+}
+.ms-5:before{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  content: " ";
+  width: 4px;
+  background-color:#e2dfdf;
+  left: 41.5%;
+}
+.team{
+  background-color: aliceblue;
+}
+.team-content{
+  margin: 0 auto;
+  text-align: center;
+}
+.team-content img{
+border-radius: 50%;
+border: 3px solid white;
+}
+.team-content h5{
+  font-size: small;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5%;
+  margin-bottom: -8px;
+}
+.team-content ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: -8px;
+}
+.team-content ul li{
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(33, 33, 33);
+  border-radius: 50%;
+  line-height: 26px;
+  margin-left: 3%;
+}
+.contact{
+  height: 110vh;
+  color: white;
+  background: url("./world-map.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size:cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-position-y:center;
+}
+.contact p{
+  margin-bottom: -5%;
+  color: rgb(222, 222, 222);
+}
+.contact input{
+width: 100%;
+height: 60px;
+padding: 5%;
+margin-top: 20px;
+}
+.contact textarea{
+width: 100%;
+height: 220px;
+padding: 5%;
+margin-top: 20px;
+}
+.contact button{
+  border: none;
+  border-radius: 5px;
+  background-color: #ff9628;
+  color: white;
+  width: 220px;
+  height: 60px;
+  margin-top: 5%;
+}
+.contact button:hover{
+  background-color: white;
+  color:#ff9628;
+  transition: color 0.5s ease;
+}
+.footer{
+margin-top: 8px;
+margin-bottom: 8px;
+}
+.footer p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: smaller;
+  width:max-content;
+  line-height: 50px;
+  
+}
+.footer-icon{
+  list-style-type: none;
+  display:flex;
+  margin-bottom: 0;
+}
+.footer-icon li{
+  margin-left: 3% ;
+}
+.twit-icon .fa-2x{
+  width: 30px;
+  text-align: center;
+  margin-left: 5px;
+}
+.twit-icon{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #212121;
+  color: white;
+}
+
